@@ -37,10 +37,10 @@ The top 5 and bottom 5 performing schools, based on the overall passing rate
 ![Bottom Schools](https://user-images.githubusercontent.com/105124485/172476177-a6695635-4358-4813-95eb-4cffc1997e36.jpg)
 
 The average math score for each grade level from each school
-![Math Scores](https://user-images.githubusercontent.com/105124485/172476202-cea46141-2d0c-4ed1-bd21-7e46adda4315.jpg)
+![Math Scores](https://user-images.githubusercontent.com/105124485/172479065-3d630209-a2e9-4345-81b1-4352bd4dc431.jpg)
 
 The average reading score for each grade level from each school
-![Reading Scores](https://user-images.githubusercontent.com/105124485/172476238-848bd630-0571-4398-a7ee-5b0cfc6836cb.jpg)
+![Reading Scores](https://user-images.githubusercontent.com/105124485/172479082-5958b280-1931-4cf7-9e81-1ccad7dde989.jpg)
 
 The scores by school spending per student, by school size, and by school type
 ![School Summary Detailed](https://user-images.githubusercontent.com/105124485/172476278-ad0b05ce-3343-4d3d-8d66-d83d458b1eef.jpg)
