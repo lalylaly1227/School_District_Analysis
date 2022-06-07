@@ -26,34 +26,34 @@ Using the Pandas loc method with conditional statements and comparison and logic
 
 ## Results
 The district summary
-![District Summary](https://user-images.githubusercontent.com/105124485/172473912-d6f33311-b246-4efd-8f4e-27d7a8ebb736.jpg)
+![District Summary](https://user-images.githubusercontent.com/105124485/172476053-7301a8c0-40a9-4880-8edf-e3e5e815f76d.jpg)
 
 The school summary 
-(I formatted the columns for the percentages to print, then removed the formatting so as not to affect the calculations later in the coding)
-![Per School Summary](https://user-images.githubusercontent.com/105124485/172473997-d0e4e7da-7175-4508-a4a5-3f1ee9cd3881.jpg)
+_(I formatted the columns for the percentages to print, then removed the formatting so as not to affect the calculations later in the coding)_
+![Per School Summary](https://user-images.githubusercontent.com/105124485/172476120-9da42efc-0ea2-491e-80df-22ca224d23d0.jpg)
 
 The top 5 and bottom 5 performing schools, based on the overall passing rate
-![Top Schools](https://user-images.githubusercontent.com/105124485/172474032-d05eae19-7db7-4458-9f08-479ea3a88937.jpg)
-![Bottom Schools](https://user-images.githubusercontent.com/105124485/172474590-8b082191-f493-45a3-9de8-8aa11a6b7a1f.jpg)
+![Top Schools](https://user-images.githubusercontent.com/105124485/172476161-5c5bb8f5-1a87-494a-902e-dd00c36d7138.jpg)
+![Bottom Schools](https://user-images.githubusercontent.com/105124485/172476177-a6695635-4358-4813-95eb-4cffc1997e36.jpg)
 
 The average math score for each grade level from each school
-![Math Scores](https://user-images.githubusercontent.com/105124485/172474260-10ce8998-0eeb-4fd3-843f-6fde4a38fc31.jpg)
+![Math Scores](https://user-images.githubusercontent.com/105124485/172476202-cea46141-2d0c-4ed1-bd21-7e46adda4315.jpg)
 
 The average reading score for each grade level from each school
-![Reading Scores](https://user-images.githubusercontent.com/105124485/172474141-cfb4d93f-2505-4558-9640-825e4a7681db.jpg)
+![Reading Scores](https://user-images.githubusercontent.com/105124485/172476238-848bd630-0571-4398-a7ee-5b0cfc6836cb.jpg)
 
 The scores by school spending per student, by school size, and by school type
-![School Summary Detailed](https://user-images.githubusercontent.com/105124485/172474301-7ff0d276-5c71-40de-8eb5-12f2f42b5b2c.jpg)
+![School Summary Detailed](https://user-images.githubusercontent.com/105124485/172476278-ad0b05ce-3343-4d3d-8d66-d83d458b1eef.jpg)
 
 ## Summary
 The first analysis included the entire set of data.  The second analysis did not include the ninth-grade students from Thomas High School.  The scores from Thomas High School had their scores replaced with NaN. Replacing those scores resulted in changes to Thomas High School passing percentage, but changes were minimal.  Additionally, the entire overall passing percentage of the entire district also showed a drop in overall passing percentage. 
 
 When we looked at the effects of the school budget and the size of the schools, we found that the average scores and passing percentages were not really affected as spending per student increased. It seems that the lowest spending budgets resulted in the highest overall passing percentage. The same could be said for the school’s size, the smaller size schools had the highest overall passing percentage.
-![Spending Summary](https://user-images.githubusercontent.com/105124485/172474438-9f01412a-0eba-4657-a6ee-b0860c94a66d.jpg)
-![Size Summary](https://user-images.githubusercontent.com/105124485/172474499-a00b20fa-a0a7-4723-8b54-9eda29126b5c.jpg)
+![Spending Summary](https://user-images.githubusercontent.com/105124485/172476327-cdd89106-be2b-4029-9c01-46539af5d369.jpg)
+![Size Summary](https://user-images.githubusercontent.com/105124485/172476350-abdf9e25-fcb6-4c07-b7fd-df670087ca81.jpg)
 
 Also, we noticed that the District Schools seem to not perform as well as the Charter Schools
-![Type Summary](https://user-images.githubusercontent.com/105124485/172474672-fc788a87-97bd-4b6d-bf1f-751400cb1554.jpg)
+![Type Summary](https://user-images.githubusercontent.com/105124485/172476395-f7913ba9-88c8-48ec-973a-478f02c9369d.jpg)
 
 ## Challenge Summary
 While the average math, reading and overall scores at Thomas High School were impacted with the update, the changes were not sufficient to change its ranking versus other schools. The changes only had a minor impact of less than a 1 percentage point the top 5 metric. When the outputs were formatted the changes were not noticeable, it was only when you looked at the unformatted number that the hundredth came into play. Thomas High School’s went from an overall passing percentage of 90.948012 to 90.630324.
